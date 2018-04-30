@@ -11,3 +11,16 @@ A very basic authentication demo app use [Firebase](https://firebase.google.com)
 5. Run `npm install --save firebase` to install firebase library.
 6. Click **WEB SETUP** on the top-right corner to get the config.
 7. `firebase.initialzeApp()` to initialize the firebase with the config.
+
+The firebase config looks like below shows:
+
+```JavaScript
+const firebaseConfig = {
+  apiKey: 'Automantically_-Generated7Random_ApiKey',
+  authDomain: 'yourproject.firebaseapp.com',
+  databaseURL: 'https://yourproject.firebaseio.com',
+  projectId: 'yourproject',
+  storageBucket: 'yourproject.appspot.com',
+  messagingSenderId: '0123456789ID'
+}
+```
